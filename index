@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Clickable Image - Visit Google</title>
+  <style>
+    body {
+      text-align: center;
+      margin-top: 50px;
+      font-family: Arial, sans-serif;
+    }
+    img {
+      width: 300px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      cursor: pointer;
+      transition: transform 0.2s ease;
+    }
+    img:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <a href="https://www.google.com" target="_blank">
+    <img src="WhatsApp Image 2025-06-25 at 10.43.56_e43f084a.jpg" alt="Click to visit Google">
+  </a>
+  <p>Click the image to visit Google.</p>
+</body>
+</html>
